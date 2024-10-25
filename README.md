@@ -1,7 +1,7 @@
 # Filament Vet Application  
 
 ## Summary  
-The Vet Application is a miniature management tool designed for veterinary practices. Built using Laravel and Filament, the app provides a user-friendly interface for managing key aspects of a veterinary clinic. The main components of the application include the management of Patients (animals), Owners (clients), and Treatments (medical procedures). 
+The Vet Application is a miniature admin tool designed for veterinary practices. Built using Laravel and Filament package, the app provides a user-friendly interface for managing key aspects of a veterinary clinic. The main components of the application include the management of Patients (animals), Owners (clients), and Treatments (medical procedures and price). 
 ## Key Features  
 
 - **Patient Management**: Easily add, edit, and manage patient records, including medical history and treatment details.  
@@ -11,6 +11,8 @@ The Vet Application is a miniature management tool designed for veterinary pract
 - **User-Friendly Interface**: Utilize a modern and intuitive interface that enhances user experience through Filament.  
 
 ## Getting Started  
+
+Note this app is progressively being built, and features added incrementally
 
 To get started with the Vet Application, follow these steps:  
 
