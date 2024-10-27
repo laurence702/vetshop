@@ -58,8 +58,7 @@ class PatientResource extends Resource
                                 ->maxLength(255)
                                 ->tel()
                                 ->label('Phone Number')
-                        ])
-                        ->required()
+                         ])->required()
                 ])
             ]);
     }
