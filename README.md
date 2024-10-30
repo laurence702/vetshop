@@ -37,13 +37,13 @@ To get started with the Vet Application, follow these steps:
     ```bash
     cp .env.example .env
   
-5.   Generate the application key:
+5. Generate the application key:
     ```bash
     php artisan key:generate
   
-6.    Set up your database configuration in the .env file.
+6.  Set up your database configuration in the .env file.
 
-7.    Run the migrations:
+7.  Run the migrations:
     ```bash
     php artisan migrate
   
