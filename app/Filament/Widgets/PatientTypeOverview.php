@@ -29,7 +29,7 @@ class PatientTypeOverview extends BaseWidget
                 ->descriptionIcon('heroicon-m-users')
                 ->color('success'),
             Stat::make('Total Income generated', $treatmentRevenue)
-                ->description('some description')
+                ->description('In Dollars')
                 ->color('success')
                 ->descriptionIcon('heroicon-m-currency-dollar')
                 ->color('success'),
