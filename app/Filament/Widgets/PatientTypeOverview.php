@@ -14,11 +14,11 @@ class PatientTypeOverview extends BaseWidget
     {
         $patientsCount = Patient::count();
         $ownersCount = Owner::count();
-        $treatmentStats = Treatment::selectRaw('COUNT(*) as total_count, SUM(price) as total_price')->first();
+        $treatmentStats = \App\Models\Treatment::get();
  
         $treatmentCount = $treatmentStats->total_count;
         $treatmentRevenue = $treatmentStats->total_price;
-    
+
         return [
             Stat::make('Pets', $patientsCount)
                 ->description('Number of Pets')
