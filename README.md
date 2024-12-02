@@ -54,3 +54,7 @@ To get started with the Vet Application, follow these steps:
 9.  Start the development server:
     ```bash
     php artisan serve  
+
+
+### Installation  
+v2 will have just one user Model, which holds both Owner and Doctor roles
